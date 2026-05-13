@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python)",
+      "Bash(mkdir -p assets/img tools)",
+      "Bash(mv -v logo.webp favicon.webp hero-bg.webp engenheiro-fenix.webp exemplo-01.webp exemplo-02.webp exemplo-03.webp obra-01.webp obra-02.webp obra-03.webp obra-04.webp obra-05.webp obra-06.webp assets/img/)",
+      "Bash(mv -v converter-imagens.py tools/)",
+      "Bash(python -m http.server 8080 --bind 127.0.0.1)",
+      "mcp__becd4d89-2e60-403f-8391-4f34c43e4d0c__list_projects",
+      "mcp__becd4d89-2e60-403f-8391-4f34c43e4d0c__execute_sql",
+      "Bash(curl -s -o /dev/null -w \"index.html -> HTTP %{http_code} | %{size_download} bytes\\\\n\" http://127.0.0.1:8080/index.html)"
+    ]
+  }
+}
